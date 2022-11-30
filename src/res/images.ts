@@ -1,0 +1,28 @@
+const images = {
+  login: { uri: 'login' },
+  baarbarg_hagigi: { uri: 'baarbarg_hagigi' },
+  baarbarg_daily: { uri: 'baarbarg_daily' },
+  wallet: { uri: 'wallet' },
+  shipping_doc_history: { uri: 'shipping_doc_history' },
+  gas_station: { uri: 'gas_station' },
+  shipping: { uri: 'shipping' },
+  barcode: { uri: 'barcode' },
+  review: { uri: 'review' },
+  background: { uri: 'background' },
+  arvand: { uri: 'arvand' },
+  anzali: { uri: 'anzali' },
+  aras: { uri: 'aras' },
+  chabahar: { uri: 'chabahar' },
+  geshm: { uri: 'geshm' },
+  kish: { uri: 'kish' },
+  maku: { uri: 'maku' },
+  captchaBackground: { uri: 'captcha_background' },
+  iran_pelak: { uri: 'iran_pelak' },
+  transportdoc1: { uri: 'transportdoc1' },
+  transportdoc2: { uri: 'transportdoc2' },
+  transportdoc3: { uri: 'transportdoc3' },
+  transportdoc4: { uri: 'transportdoc4' },
+  transportdoc5: { uri: 'transportdoc5' },
+};
+
+export default images;

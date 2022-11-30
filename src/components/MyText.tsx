@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { StyleProp, Text, TextProps, TextStyle, TextComponent } from 'react-native';
 import { observer } from 'mobx-react';
 
-type Props = {
+export type Props = {
   font?: 'Regular' | 'Bold';
   size?: number;
   color?: string;
   style?: StyleProp<TextStyle>;
-  children: JSX.Element;
+  children: JSX.Element | string;
 } & TextProps;
 
 const MyText = ({
