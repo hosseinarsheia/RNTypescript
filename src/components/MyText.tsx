@@ -7,7 +7,7 @@ export type Props = {
   size?: number;
   color?: string;
   style?: StyleProp<TextStyle>;
-  children: JSX.Element | string;
+  children: JSX.Element[] | string;
 } & TextProps;
 
 const MyText = ({
